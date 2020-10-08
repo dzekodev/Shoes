@@ -1,0 +1,248 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.nav-container{
+    position: relative;
+    width: 90%;
+    margin: 80px auto;
+    background: rgb(185,31,42);
+    background: linear-gradient(10deg, rgba(185,31,42,1) 12%, rgba(246,17,17,1) 32%, rgba(215,25,25,1) 44%, rgba(232,19,26,1) 59%, rgba(148,25,32,1) 73%, rgba(255,1,16,1) 93%);
+}
+.container_1{
+    display: flex;
+}
+.list li{
+    display: inline;
+    padding: 50px 20px;
+    font-size: 30px;
+    margin-left: 130px;
+}
+.list li a{
+    text-decoration: none;
+    color: #ffffff;
+    font-family: 'Architects Daughter', cursive;
+    transition: all 0.3s;
+}
+.list li a:hover{
+    color: #fff000;
+    font-size: 40px;
+}
+.list li a i{
+    border: solid black;
+    border-width: 0 2px 2px 0;
+    display: inline-block;
+    margin-top: 20px;
+    margin-left: 10px;
+    padding: 10px;
+}
+.down{
+    transform: rotate(45deg);
+}
+.container_1 span{
+    color: #ffffff;
+    margin-left: 3%;
+    margin-top: 1%;
+    font-size: 40px;
+    font-family: 'Sansita Swashed', cursive;
+    transition: all 0.3s;
+}
+.container_1 span:hover{
+    color:rgba(166, 255, 0, 0.87);
+    font-size: 50px;
+}
+.container_2{
+    position: absolute;
+    right: 0;
+    top: 0;
+    text-align: center;
+    width: 150px;
+    height: 788px;
+    background: rgb(124,7,15);
+    background: linear-gradient(10deg, rgba(124,7,15,1) 12%, rgba(176,7,7,1) 32%, rgba(170,10,10,1) 44%, rgba(232,19,26,1) 59%, rgba(148,25,32,1) 73%, rgba(173,6,15,1) 93%);
+    display: flex;
+    flex-direction: column;
+}
+
+.menu-bar{
+    background: #34353d;
+    width: 150px;
+    font-size: 500px;
+    height: 80px;
+}
+.container_2 span{
+    font-size: 35px;
+    color: #ffffff;
+    padding-top: 60px;
+    transition: all 0.3s;
+}
+.container_2 span:hover{
+    color: #fff000;
+    font-size: 45px;
+}
+.share{
+    margin-top: 130px;
+}
+.container_3{
+    display: flex;
+    flex-direction: column;
+}
+.info{
+    display: flex;
+    flex-direction: column;
+    margin-left: 65%;
+    margin-top: 3%;
+}
+.info .line_1{
+    font-size: 30px;
+    color: #ffffff;
+    font-weight: 600;
+    padding-bottom: 15px;
+    font-family: 'Architects Daughter', cursive;
+}
+.info .line_2{
+    font-size: 45px;
+    color: #ffffff;
+    font-weight: 600;
+    padding-bottom: 15px;
+}
+.info .line_3{
+    font-size: 30px;
+    color: #ffffffc0;
+}
+.three-lines{
+    display: flex;
+    flex-direction: column;
+    font-size: 40px;
+    padding-top: 100px;
+    color: #ffffff86;
+}
+.three-lines .first-line{
+    color: #ffffff;
+}
+.arrows{
+    margin-left: 87%;
+    display: flex;
+    flex-direction: column;
+}
+.arrows span{
+    padding-bottom: 15px;
+    color: #ffffff;
+    font-size: 30px;
+    transition: all 0.3s;
+}
+.arrows span:hover{
+    color: #fff000;
+    font-size: 40px;
+}
+.bottom{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 112px;
+    color: #ffffff;
+}
+.bottom .down-bottom{
+    margin-left: 20px;
+    font-size: 30px;
+}
+.bottom .txt{
+    margin-right: 160px;
+    font-family: 'Architects Daughter', cursive;
+    font-size: 30px;
+}
+.first-logo{
+    position: absolute;
+    top: 20%;
+    left: 25%;
+}
+.first-logo img{
+    width: 600px;
+}
+
+.second-logo{
+    position: absolute;
+    top: 13%;
+    left: 1%;
+}
+
+.second-logo img{
+    width: 300px;
+}
+.third-logo{
+    position: absolute;
+    top: 45%;
+    right: 15%;
+    font-size: 200px;
+}
+.logos-txt{
+    position: absolute;
+    transform: rotate(-90deg);
+    top: 60%;
+    left: 3%;
+    width: 200px;
+    font-size: 45px;
+    border-bottom: #ffffff solid 3px;
+    border-radius: 8px;
+    padding-bottom: 20px;
+    font-family: 'Sansita Swashed', cursive;
+    color: rgba(166, 255, 0, 0.87);
+}
+@media screen and (max-width: 1662px){
+    .arrows{
+        display: none;
+    }
+    .first-logo{
+        display: none;
+    }
+    .list{
+        display: flex;
+        flex-direction: column;
+        margin-left: 20%;
+    }
+    .third-logo{
+        top: 10%;
+    }
+    .info{
+        position: absolute;
+        top: 50%;
+        right: 10%;
+    }
+    .logos-txt{
+        position: absolute;
+        top: 48%
+    }
+    .container_2{
+        height: 1031px;
+    }
+    .share{
+        margin-top: 120px;
+    }
+    .container_2 span{
+        padding-top: 100px;
+    }
+}
+@media screen and (max-width: 1296px){
+    
+    .info{
+        position: absolute;
+        top: 60%;
+        right: 40%;
+    }
+    .txt{
+        position: absolute;
+        bottom: 1%;
+        left: 30%;
+    }
+}
+@media screen and (max-width: 991px){
+    
+    .logos-txt{
+        display: none;
+    }
+    .three-lines{
+        position: absolute;
+        left: 0;
+        top: 30%;
+    }
+}
